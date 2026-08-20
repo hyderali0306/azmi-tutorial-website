@@ -1361,3 +1361,30 @@ nav ul li a:hover::after{
         display:none;
     }
 }
+/* =====================================
+   FORM SUCCESS MESSAGE
+===================================== */
+
+.form-success {
+    display: none;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    background: #f0fff4;
+}
+
+.form-success i {
+    font-size: 45px;
+    margin-bottom: 12px;
+}
+
+.form-success h3 {
+    margin: 5px 0 10px;
+    font-size: 22px;
+}
+
+.form-success p {
+    margin: 0;
+    line-height: 1.6;
+}
