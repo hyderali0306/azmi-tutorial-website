@@ -621,22 +621,27 @@ azmitutorialandprivatetuitions@gmail.com</p>
 
         <div class="contact-form">
 
-            <form action="https://formspree.io/f/xnpallpj" method="POST">
+            <form id="enquiryForm"
+      action="https://formspree.io/f/xnpallpj"
+      method="POST">
 
-    <input type="text"
-           name="student_name"
-           placeholder="Student Name"
-           required>
+    <input
+        type="text"
+        name="student_name"
+        placeholder="Student Name"
+        required>
 
-    <input type="email"
-           name="email"
-           placeholder="Email Id"
-           required>
+    <input
+        type="email"
+        name="email"
+        placeholder="Email Id"
+        required>
 
-    <input type="tel"
-           name="mobile"
-           placeholder="Mobile Number"
-           required>
+    <input
+        type="tel"
+        name="mobile"
+        placeholder="Mobile Number"
+        required>
 
     <select name="class" required>
         <option value="">Select Class</option>
@@ -665,7 +670,12 @@ azmitutorialandprivatetuitions@gmail.com</p>
     </button>
 
 </form>
-
+<div id="formSuccess" class="form-success">
+    <i class="fa-solid fa-circle-check"></i>
+    <h3>Enquiry Submitted Successfully!</h3>
+    <p>Thank you for contacting Azmi Tutorial.<br>
+    We will contact you shortly.</p>
+</div>
         </div>
 
     </div>
