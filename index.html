@@ -621,62 +621,50 @@ azmitutorialandprivatetuitions@gmail.com</p>
 
         <div class="contact-form">
 
-            <form>
+            <form action="https://formspree.io/f/xnpallpj" method="POST">
 
-                <input type="text"
-                       placeholder="Student Name"
-                       required>
+    <input type="text"
+           name="student_name"
+           placeholder="Student Name"
+           required>
 
-                <input type="text"
-                       placeholder="Email Id"
-                       required>
+    <input type="email"
+           name="email"
+           placeholder="Email Id"
+           required>
 
-                <input type="tel"
-                       placeholder="Mobile Number"
-                       required>
+    <input type="tel"
+           name="mobile"
+           placeholder="Mobile Number"
+           required>
 
-                <select required>
+    <select name="class" required>
+        <option value="">Select Class</option>
+        <option>Class 9</option>
+        <option>Class 10</option>
+        <option>Class 11</option>
+        <option>Class 12</option>
+    </select>
 
-                    <option>Select Class</option>
+    <select name="board" required>
+        <option value="">Select Board</option>
+        <option>SSC</option>
+        <option>CBSE</option>
+        <option>ICSE</option>
+        <option>HSC Science</option>
+        <option>HSC Commerce</option>
+    </select>
 
-                    <option>Class 9</option>
+    <textarea
+        name="message"
+        rows="5"
+        placeholder="Message"></textarea>
 
-                    <option>Class 10</option>
+    <button type="submit" class="btn">
+        Submit Enquiry
+    </button>
 
-                    <option>Class 11</option>
-
-                    <option>Class 12</option>
-
-                </select>
-
-                <select required>
-
-                    <option>Select Board</option>
-
-                    <option>SSC</option>
-
-                    <option>CBSE</option>
-
-                    <option>ICSE</option>
-
-                    <option>HSC Science</option>
-
-                    <option>HSC Commerce</option>
-
-                </select>
-
-                <textarea
-                    rows="5"
-                    placeholder="Message">
-                </textarea>
-
-                <button class="btn">
-
-                    Submit Enquiry
-
-                </button>
-
-            </form>
+</form>
 
         </div>
 
