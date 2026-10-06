@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://azmitutorial.in/sitemap.xml
+Sitemap: https://hyderali0306.github.io/azmi-tutorial-website/sitemap.xml
